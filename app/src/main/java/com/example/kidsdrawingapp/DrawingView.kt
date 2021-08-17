@@ -43,7 +43,7 @@ class DrawingView(context: Context, attrs: AttributeSet) : View(context, attrs) 
     // Change Canvas to Canvas? if fails
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        canvas?.drawBitmap(mCanvasBitmap!!, 0f, 0f, mCanvasPaint)
+//        canvas?.drawBitmap(mCanvasBitmap!!, 0f, 0f, mCanvasPaint)
 
         for (path in mPaths) {
             mDrawPaint!!.strokeWidth = path.brushThickness
